@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Roboto", "Microsoft Yahei", "simsun";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +8,237 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.change-region-wrap {
+    position: absolute;
+    top: 0;
+    padding: 2rem 1.25rem 0 2.5rem;
+    line-height: 1.5rem;
+    font-size: 1.33333333rem;
+    color: #353A45;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.close {
+    float: right;
+}
+.current-country {
+    margin-left: 0.5rem;
+    margin-right: 1.16666667rem;
+}
+.change-country {
+    margin-right: 0.5rem;
+    color: #0D9737;
+}
+address, b, caption, cite, code, dfn, em, i, th, var {
+    font-style: normal;
+    font-weight: 500;
+}
+.form_container{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 5rem 2.5rem 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+form{
+  width: 100%;
+}
+.links{
+  justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.register-and-login {
+    display: block;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.input {
+    height: 100%;
+    padding: 1rem 10px;
+    border: none;
+    outline: none;
+    font-size: initial;
+}
+
+.input_box{
+  align-items: center;
+  justify-content: space-around;
+    display: flex;
+    border: 1px solid #d1d1d1cc;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.fblinker{
+  display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: 500;
+    align-items: center;
+    color: #161acd;
+}
+.showPass{
+  border: none;
+  background: none;
+  outline: none;
+  color: #d1cece;
+  font-weight: bold;
+  font-size: medium;
+}
+.sub_btn-noms{
+  border-radius: 3px;
+    margin-top: 40px;
+    background: #e1e1e1;
+    font-size: large;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+}
+
+.sub_btn-active_green{
+  border-radius: 3px;
+    margin-top: 40px;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+  background:#0D9737!important
+}
+
+.number_div{
+  margin-left: 12px;
+}
+a{
+  text-decoration: none;
+}
+
+.line-gray{
+  width: inherit;
+    border-bottom: 1px solid #dfdfdf;
+    height: 1px;
+}
+
+.grayCont{
+  align-items: center;
+    display: flex;
+    width: 100%;
+    color: gray;
+    justify-content: space-around;
+}
+.country-flag{
+  width: 30px;
+  height: 18px;
+}
+
+.pin_input{
+  width: 44px;
+  height: 48px;
+  margin-right: 10px;
+  border: 1px solid #adacac;
+  outline: none;
+  text-align: center;
+}
+.Pin-container{
+  z-index: 100;
+  position: absolute;
+  padding: 50px 0px;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: white;
+}
+
+.pin-m{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pins-flex{
+  display: flex;
+}
+
+.h_1{
+  font-size: x-large;
+  font-weight: bold;
+  color: #444444;
+  margin-bottom: 19px;
+ 
+}
+.h_2{
+  margin: auto;
+    margin-bottom: 19px;
+    width: 95%;
+    color: #444444;
+}
+
+.t_align{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.warning{
+  background: rgba(250, 253, 0, 0.1);
+  color: #353A45;
+  font-size: 12px;
+  line-height: 1.17;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.m-notification--info {
+  padding-left: 3.5rem;
+}
+
+.wd80{
+  width: 80%;
+}
+.m-notification {
+  padding: 0.83333333rem;
+  position: relative;
+}
+
+.wrn{
+  font-size: 40px;
+    margin-right: 10px;
+    color: #bfbf00;
+}
+
+.fp{
+  margin-top: 30px;
+  color: #0d9737;
 }
